@@ -1,0 +1,27 @@
+<div class="prf-menu">
+  <tui-badged-content>
+    <tui-badge-notification
+        size="s"
+        tuiSlot="top"
+    >
+        99
+    </tui-badge-notification>
+    <div 
+      class="prf-menu"
+      [tuiDropdown]="dropdownContent"
+      [tuiDropdownManual]="open"
+      [tuiObscuredEnabled]="open"
+      (click)="onClick()"
+      (tuiActiveZoneChange)="onActiveZone($event)"
+      (tuiObscured)="onObscured($event)"
+    >
+      <tui-avatar [src]="'https://eop.edu.vn/avatar/6175187b03094e4e396b6c88fd83/50' | tuiFallbackSrc: '@tui.user' | async" [size]="avatarSize"/>
+      <ng-template #dropdownContent>
+          <div class="dropdown">
+              nothing...
+          </div>
+      </ng-template>
+      
+    </div>
+  </tui-badged-content>
+</div>
