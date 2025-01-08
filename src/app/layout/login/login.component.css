@@ -1,0 +1,15 @@
+.color-line {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  line-height: 1.42857143;
+  font-family: Arial,sans-serif,"Open Sans","Helvetica Neue",Helvetica;
+  font-size: 13px;
+  color: #6a6c6f;
+  box-sizing: border-box;
+  background: #f7f9fa;
+  height: 6px;
+  background-image: linear-gradient(to right,#34495e,#34495e 25%,#9b59b6 25%,#9b59b6 35%,#3498db 35%,#3498db 45%,#62cb31 45%,#62cb31 55%,#ffb606 55%,#ffb606 65%,#e67e22 65%,#e67e22 75%,#e74c3c 85%,#e74c3c 85%,#c0392b 85%,#c0392b 100%);
+  background-size: 100% 6px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
